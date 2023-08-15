@@ -1,0 +1,66 @@
+:root {
+  --pink-color: #f7a1c4;
+  --cream-color: #ffffe8;
+  --green-color: #94bfa7;
+}
+
+body {
+  max-width: 800px !important;
+  margin: 60px auto !important;
+}
+
+.pink {
+  background-color: var(--pink-color);
+}
+
+.cream {
+  background-color: var(--cream-color);
+}
+
+.green {
+  background-color: var(--green-color);
+}
+
+h1 {
+  text-align: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.link {
+  border: 1px solid var(--green-color);
+  background-color: var(--green-color);
+  border-radius: 5px;
+  padding: 8px 10px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+footer.contact .link {
+  border: 1px solid var(--cream-color);
+  background-color: var(--cream-color);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.img-mochi {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+}
